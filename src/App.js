@@ -7,9 +7,12 @@ import ClearBoton from './components/boton_clear/ClearBoton';
 
 function App() {
 
-  
+/*   const [input, setInput] = useState(''); */
 
-
+  /* const addInput = val => {
+    setInput(input + val);
+  }
+ */
 
   return (
     <div className="App">
@@ -22,7 +25,7 @@ function App() {
       </div>
 
       <div className='calculator-container'>
-        <Pantalla/>
+        {/* <Pantalla input={input}/> */}
         <div className='file'>
           <Boton>1</Boton>
           <Boton>2</Boton>
