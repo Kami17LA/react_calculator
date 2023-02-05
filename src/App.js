@@ -2,8 +2,15 @@ import './App.css';
 import freeCodeCampLogo from './images/freecodecamp-logo.jpg'
 import Boton from './components/botones/Boton';
 import Pantalla from './components/screen/Pantalla';
+import ClearBoton from './components/boton_clear/ClearBoton';
+/* import { useState } from 'react'; */
 
 function App() {
+
+  
+
+
+
   return (
     <div className="App">
       <div className='freecodecamp-logo-container'>
@@ -41,6 +48,9 @@ function App() {
           <Boton>/</Boton>
         </div>
         <div className='file'></div>
+        <ClearBoton>
+          Clear
+        </ClearBoton>
       </div>
     </div>
   );
