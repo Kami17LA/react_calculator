@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App() {
 
-const [input, setInput] = useState(''); 
+const [input, setInput] = useState('Hola'); 
 
   const addInput = val => {
     setInput(input + val);
