@@ -22,7 +22,6 @@ const [input, setInput] = useState('');
     }
   }
  
-
   return (
     <div className="App">
       <div className='freecodecamp-logo-container'>
