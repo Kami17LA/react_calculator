@@ -15,7 +15,11 @@ const [input, setInput] = useState('');
   }
 
   const calculatorResult = () => {
-    setInput(evaluate(input))
+    if(input){
+      setInput(evaluate(input))
+    } else {
+      alert("Por favor ingrese valores para realizar los cálculos")
+    }
   }
  
 
